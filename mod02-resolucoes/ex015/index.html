@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Seletores Personalizados</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../portfolio/index.html" target="_self" class="logo">noir fidelis</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="../../portfolio/index.html" target="_self">Home</a></li>
+                <li><a href="../../portfolio/exercicios-resolucao.html" target="_self" rel="prev">Exercícios</a></li>
+                <li><a href="../../portfolio/desafios-resolucao.html" target="_self" rel="prev">Desafios</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <article class="artigo">
+                <ol type="1" id="bloco">
+                    <li>Em um mesmo documento HTML, vários elementos podem possuir o mesmo <ins>class</ins> para criarmos formatações em grupo com CSS, mas só podemos ter um elemento com um <ins>id</ins> único para criar formatações individuais.</li>
+                        <ol type="a">
+                            <li>id / class</li>
+                            <li>class / id &#10004;</li>
+                            <li>style / class</li>
+                            <li>code / id</li>
+                        </ol>
+                    <hr>
+                    <li>Toda configuração de folhas de estilo que fizermos para um determinado id deve ser feita iniciando pelo símbolo <ins>#</ins> antes do identificador. Já as configurações para um determinado class serão feitas usando o símbolo <ins>.</ins> antes do nome da class.</li>
+                        <ol type="a">
+                            <li># e . &#10004;</li>
+                            <li>. e #</li>
+                            <li># e $</li>
+                            <li>$ e .</li>
+                        </ol>
+                    <hr>
+                    <li>Como já sabemos, existem três técnicas para inserir configurações CSS a um código HTML5: inline, local e externa. Se uma página usa as três técnicas ao mesmo tempo e cria uma configuração duplicada para uma determinada propriedade, qual delas vai se sobrepor às demais?</li>
+                        <ol type="a">
+                            <li>CSS local</li>
+                            <li>CSS externo</li>
+                            <li>CSS inline</li>
+                            <li>Não existe ordem de prioridades para casos de duplicidade. &#10004;</li>
+                        </ol>
+                    <hr>
+                    <li>Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor após um sinal de:</li>
+                        <ol type="a">
+                            <li>dois pontos (:) &#10004;</li>
+                            <li>ponto-e-vírgula (;)</li>
+                            <li>porcentagem (%)</li>
+                            <li>arroba (@)</li>
+                        </ol>
+                    <hr>
+                    <li>Qual dos itens a seguir é o único que não se refere à uma pseudo-classe CSS?</li>
+                        <ol type="a">
+                            <li>hover</li>
+                            <li>before &#10004;</li>
+                            <li>checked</li>
+                            <li>empty</li>
+                        </ol>
+                    <hr>
+                    <li>Para realizar configurações de formatação em um pedaço específico do elemento HTML referenciado (a primeira letra de um texto, por exemplo), devemos aprender a criar seletores para:</li>
+                        <ol type="a">
+                            <li>pseudo-classes</li>
+                            <li>pseudo-textos</li>
+                            <li>pseudo-formatos</li>
+                            <li>pseudo-elementos &#10004;</li>
+                        </ol>
+                    <hr>
+                    <li>Qual dos itens a seguir é o único que não se refere à um pseudo-elemento CSS?</li>
+                        <ol type="a">
+                            <li>first-line</li>
+                            <li>first-letter</li>
+                            <li>active &#10004;</li>
+                            <li>before</li>
+                        </ol>
+                    <hr>
+                    <li>Considere que temos o seguinte link em uma mesma página: &lt;ahref="pag002.html" class="link"&gt;Página 2 &lt;/a&gt;. Qual será o nome do seletor para configurarmos o que vai acontecer quando o usuário mover o cursor do mouse por cima do link?</li>
+                        <ol type="a">
+                            <li>a#link:hover</li>
+                            <li>a.hover:link</li>
+                            <li>a.hover#link</li>
+                            <li>a.link:hover &#10004;</li>
+                        </ol>
+                    <hr>
+                    <li>Se quisermos que todos os links de uma página tenham um símbolo » depois do texto, devemos usar a formatação:</li>
+                        <ol type="a">
+                            <li>a::after {content: '»';} &#10004;</li>
+                            <li>a {content '»'}::after</li>
+                            <li>after::a {content:'»';}</li>
+                            <li>::after {content '»'} a</li>
+                        </ol>
+                    <hr>
+                    <li>Podemos definir seletores com o símbolo de maior que (>) para indicar o que chamamos de:</li>
+                        <ol type="a">
+                            <li>larger tag</li>
+                            <li>next tag</li>
+                            <li>direct children &#10004;</li>
+                            <li>alternative element</li>
+                        </ol>
+                </ol>
+                    <aside class="extra">
+                        <i>"Quando o mundo estiver unido na busca do conhecimento, e não mais lutando por dinheiro e poder, então nossa sociedade poderá enfim, evoluir a um novo nível."</i>
+                    </aside>
+            </article>
+        </main>
+        <script src="mobile-navbar.js"></script>
+        <footer>
+            <p>&copy; 2023 Created by <a href="https://github.com/noirfidelis" target="_blank">noirfidelis</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVídeo</a></p>
+        </footer>
+</body>
+</html>
