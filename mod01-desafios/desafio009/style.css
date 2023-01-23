@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1 {
+    font: normal bold 40px Verdana, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+body {
+    font: normal 18px Verdana, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+div {
+    display: inline-table;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}

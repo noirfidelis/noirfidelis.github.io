@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+    font: normal bold 40px Verdana, Helvetica, sans-serif;
+    text-align: center;
+    color: green
+}
+
+body {
+    font: normal 18px Verdana, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: lightgreen;
+    color: green;
+    background-image: url(snoop.jfif);
+    background-repeat: repeat;
+    background-position: center;
+}
