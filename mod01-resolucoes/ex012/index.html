@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Trabalhando com Estilos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../portfolio/index.html" target="_self" class="logo">noir fidelis</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="../../portfolio/index.html" target="_self">Home</a></li>
+                <li><a href="../../portfolio/exercicios-resolucao.html" target="_self" rel="prev">Exercícios</a></li>
+                <li><a href="../../portfolio/desafios-resolucao.html" target="_self" rel="prev">Desafios</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <article class="artigo">
+                <ol type="1" id="bloco">
+                    <li>A sigla CSS significa:</li>
+                        <ol type="a">
+                            <li>Content Style Setup.</li>
+                            <li>Content Smart Sheets.</li>
+                            <li>Cascading Style Sheets. &#10004;</li>
+                            <li>Cascading Setup Style.</li>
+                        </ol>
+                    <hr>
+                    <li>Ao configurar os estilos com a técnica inline, as propriedades CSS são colocadas em que local?</li>
+                        <ol type="a">
+                            <li>Dentro da própria tag HTML, em um parâmetro chamado style. &#10004;</li>
+                            <li>Dentro da área &lt;head&gt; do documento HTML, na área delimitada por &lt;style&gt;.</li>
+                            <li>Em um arquivo separado dentro da própria pasta onde o documento HTML está.</li>
+                            <li>Dentro de uma pasta especial chamada /style que fica no diretório atual do site.</li>
+                        </ol>
+                    <hr>
+                    <li>O que aconteceu com configurações como &lt;body bgcolor="blue"&gt; e &lt;font-color="yellow"&gt; que eram usadas em sites mais antigos?</li>
+                        <ol type="a">
+                            <li>Continuam funcionando perfeitamente e podem ser usadas normalmente.</li>
+                            <li>Continuam funcionando,  mas não é nada recomendável, pois as CSS são mais atuais. &#10004;</li>
+                            <li>Não funcionam mais de forma alguma.</li>
+                            <li>Ainda são a única opção de mudar cores.</li>
+                        </ol>
+                    <hr>
+                    <li>Qual das opções a seguir é a única que configura corretamente a cor da letra de um título usando CSS inline?</li>
+                        <ol type="a">
+                            <li>&lt;h1 color="blue"&gt;Título&lt;/h1&gt;</li>
+                            <li>&lt;h1 style="blue"&gt;Título&lt;/h1&gt;</li>
+                            <li>&lt;h1 style="font-color: blue"&gt;Título&lt;/h1&gt;</li>
+                            <li>&lt;h1 style="color: blue"&gt;Título&lt;/h1&gt; &#10004;</li>
+                        </ol>
+                    <hr>
+                    <li>Para usar a técnica de estilos internos, a tag &lt;style&gt; deve estar em que local?</li>
+                        <ol type="a">
+                            <li>Logo depois da tag HTML que queremos configurar.</li>
+                            <li>Dentro da área &lt;head&gt; do seu documento HTML. &#10004;</li>
+                            <li>No final do arquivo, logo depois do &lt;/body&gt;</li>
+                            <li>Em qualquer lugar do arquivo HTML.</li>
+                        </ol>
+                    <hr>
+                    <li>Em um mesmo documento HTML, utilizamos as técnicas de CSS interno e CSS inline para mudar a cor de um elemento e acabamos usando duas cores diferentes. Quais configurações vão prevalecer na nersão final do site?</li>
+                        <ol type="a">
+                            <li>As configurações duplicadas feitas nas CSS inline vão prevalecer.</li>
+                            <li>As configurações duplicadas feitas nas CSS internas vão prevalecer. &#10004;</li>
+                            <li>As duas configurações vão prevalecer e o texto será exibido duplicado com cores diferentes.</li>
+                            <li>O seu navegador vai decidir qual cor utilizar. Não existe uma regra para esses casos.</li>
+                        </ol>
+                    <hr>
+                    <li>Para utilizar estilos CSS externos, devemos usar a tag <ins>&lt;link&gt;</ins> no documento HTML para fazer o carregamento.</li>
+                        <ol type="a">
+                            <li>&lt;style&gt;</li>
+                            <li>&lt;css&gt;</li>
+                            <li>&lt;external&gt;</li>
+                            <li>&lt;link&gt; &#10004;</li>
+                        </ol>
+                    <hr>
+                    <li>A tag de carga de estilos externos deve estar localizada em que local do documento HTML?</li>
+                        <ol type="a">
+                            <li>Deve ser a primeira linha do arquivo HTML.</li>
+                            <li>Deve estar dentro da área &lt;body&gt; do documento.</li>
+                            <li>Deve estar dentro da área &lt;head&gt; do documento. &#10004;</li>
+                            <li>Pode estar em qualquer lugar, desde que esteja dentro do documento HTML.</li>
+                        </ol>
+                    <hr>
+                    <li>Para que os arquivos externos em CSS tenham compatibilidade com caracteres acentuados, devemos adicionar a regra:</li>
+                        <ol type="a">
+                            <li>@UTF-8;</li>
+                            <li>@charset"UTF-8"; &#10004;</li>
+                            <li>@charset"PT-BR";</li>
+                            <li>@PT-BR;</li>
+                        </ol>
+                    <hr>
+                    <li>No fim das contas, vamos dar preferência à técnica de <ins>CSS externo</ins> sempre que for possível e vamos tentar evitar a técnica de <ins>CSS inline</ins> em nossos sites.</li>
+                        <ol type="a">
+                            <li>CSS externo / CSS interno.</li>
+                            <li>CSS inlie / CSS interno.</li>
+                            <li>CSS externo / CSS inline. &#10004;</li>
+                            <li>CSS interno / CSS externo.</li>
+                        </ol>
+                </ol>
+                    <aside class="extra">
+                        <i>"Quando o mundo estiver unido na busca do conhecimento, e não mais lutando por dinheiro e poder, então nossa sociedade poderá enfim, evoluir a um novo nível."</i>
+                    </aside>
+            </article>
+        </main>
+        <script src="mobile-navbar.js"></script>
+        <footer>
+            <p>&copy; 2023 Created by <a href="https://github.com/noirfidelis" target="_blank">noirfidelis</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVídeo</a></p>
+        </footer>
+</body>
+</html>

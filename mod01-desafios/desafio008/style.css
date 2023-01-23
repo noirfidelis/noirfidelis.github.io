@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+h1 {
+    font: normal bold 40px Verdana, Helvetica, sans-serif;
+    text-align: center;
+}
+body {
+    font: normal 18px Verdana, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: lightgray;
+    
+}
