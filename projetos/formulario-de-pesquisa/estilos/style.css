@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+:root {
+    --background: #584d5594;
+    --white: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(imagens/rocket.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    background: var(--background);
+}
+
+.container {
+   
+}
+
+.form {
+    
+    background: var(--background);
+    color: ;
+}
+
+.form-header {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.input-box {
+
+}
+
+.name {
+    display: flex;
+    font-size: 18px;
+}
+
+#firstname {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+
+.lastname {
+    display: flex;
+    font-size: 18px;
+}
+
+#lastname {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+
+.email {
+    display: flex;
+    font-size: 18px;
+}
+
+#email {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+
+.age {
+    display: flex;
+    font-size: 18px;
+}
+
+#age {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}

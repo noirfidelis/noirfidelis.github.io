@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Formulário de Pesquisa</title>
+</head>
+<body>
+  
+    <main>
+        <div class="container">
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Teste para Astronauta</h1>
+                            <p>Uma simples pesquisa para saber se você está apto para penetrar na escuridão</p>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label  class="name" for="firstname">Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label class="lastname" for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label class="email" for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="input-box">
+                            <label class="age" for="number">Idade (opcional)</label>
+                            <input id="age" type="number" name="age" min="7" max="101" placeholder="Idade" required>
+                        </div>
+                        <div class="input-box">
+                            <p>Você já matou alguém?</p>
+                            <label>
+                                <input class="input-question" type="radio" name="kill" value="definitely">
+                                Definitivamente
+                            </label>
+                            <label>
+                                <input class="input-question" type="radio" name="kill" value="maybe">
+                                Talvez
+                            </label>
+                            <label>
+                                <input class="input-question" type="radio" name="kill" value="not-sure">
+                                Não tenho certeza
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <p>Um bebê e uma senhora em perigo, o que você faria? 
+                            </p>
+                        <label>
+                            <input class="input-question" type="radio" name="question" value="save-the-baby">
+                            Salvaria o bebê primeiro
+                        </label>
+                        <label>
+                            <input class="input-question" type="radio" name="question" value="save-the-lady">
+                            Salvaria a senhorinha primeiro
+                        </label>
+                        <label>
+                            <input class="input-question" type="radio" name="question" value="nothing">
+                            Fingiria que não viu nada (não vamos te julgar)
+                        </label>
+                        </div>
+                        <div class="input-box">
+                            <p>Qual das opções abaixo você melhor se encaixa?</p>
+                           <select name="role" id="dropdown" required>
+                                <option disabled selected value>Selecione uma das opcões</option>
+                                <option value="outgoing">Extrovertido</option>
+                                <option value="introverted">Introvertido</option>
+                            </select>
+                        </div> 
+                         
+                        <div class="input-box">
+                            <p>Qual seu hobby?</p>
+                            <select name="mostlike" id="most-like" required>
+                                <option disabled selected value>Selecione uma opção</option>
+                                <option value="to-look-at-the-stars">Olhar para as estrelas</option>
+                                <option value="to-sit">Sentar</option>
+                                <option value="burn-ants">Queimar formigas</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <p>O que te motiva a continuar vivendo?</p>
+                            <textarea name="comment" id="comments" class="input-textarea" placeholder="Digite sua resposta aqui..." cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="input-box">
+                            <button type="submit" id="submit" class="submit-button">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
