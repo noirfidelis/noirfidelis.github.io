@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+main {
+    display: block;
+    background-color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+
+}
+
+section.module p {
+    margin-bottom: 2.5rem;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 2.5rem;
+    font-size: 1.875rem;
+}
+
+section.module-text {
+    padding: 2.5rem 0;
+    background: lightblue;
+}
+
+section.module-parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important; /* função para forçar cobrir 100% da tela */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* responsável pelo efeito parallax */ 
+    background-size: cover;
+    -webkit-background-size: cover;  /* garantia de que funcionará em outros navegadores */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module-parallax2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module-parallax3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module-parallax4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module-parallax5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module-parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.module-parallax2:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.module-parallax3:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.module-parallax4:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.module-parallax5:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.module-parallax {
+    background-image: url(imagens/turtle-up.jpg);
+}
+
+section.module-parallax2 {
+    background-image: url(imagens/turtle-in.jpg);
+    background-position: top;
+}
+
+section.module-parallax3 {
+    background-image: url(imagens/turtle-surface.jpg);
+}
+
+section.module-parallax4 {
+    background-image: url(imagens/turtle-sad.jpg);
+}
+
+section.module-parallax5 {
+    background-image: url(imagens/turtle-out.jpg);
+}
+
+section.module-parallax h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4.875rem;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module-parallax2 h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4.875rem;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module-parallax3 h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4.875rem;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module-parallax4 h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4.875rem;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module-parallax5 h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4.875rem;
+    z-index: 50;
+    text-transform: uppercase;
+}
