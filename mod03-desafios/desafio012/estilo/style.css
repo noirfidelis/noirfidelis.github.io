@@ -26,14 +26,14 @@ html, body {
 }
 
 section.imagem > h1 {
-    padding-top: 50px;
+    padding-top: 3.125rem;
     font-variant: small-caps;
     font-size: 10vw;
     
 }
 
 section.imagem > p {
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 a {
@@ -99,13 +99,13 @@ section.imagem2 {
 
 section.imagem1 p {
     display: inline-block;
-    padding: 5px;
+    padding: 0.313rem;
     background-color: rgba(0, 0, 0, 0.338);    
 }
 
 section.imagem2 p {
     display: inline-block;
-    padding: 5px;
+    padding: 0.313rem;
     background-color: rgba(0, 0, 0, 0.338); 
 }
 
