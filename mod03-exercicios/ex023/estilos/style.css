@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+table {
+    width: 500px;
+    height: 300px;
+    border-collapse: collapse;
+    background-image: url(imagens/julius.png);
+    background-size: cover;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 7px;
+}
+
+.num {
+    text-align: right;
+}

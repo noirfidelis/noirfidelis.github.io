@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico.ico" type="image/x-icon">
+    <style>
+        table {
+            width: 500px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3rem;
+            font-weight: bolder;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .nome-azul {
+            background-color: lightblue;
+        }
+        .sexidade-rosa {
+            background-color: lightpink;
+        }
+        .profissao-azul {
+            background-color: lightblue;
+        }
+    </style>
+    <title>Exercício de Tabelas</title>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="nome-azul">
+            <col class="sexidade-rosa" span="2">
+            <col class="profissao-azul">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bella Belinha</td>
+                <td>F</td>
+                <td>14</td>
+                <td>Adestratora de Gados</td>
+            </tr>
+            <tr>
+                <td>Pitoco Pidão</td>
+                <td>M</td>
+                <td>12</td>
+                <td>Comedor de Chinelos</td>
+            </tr>
+            <tr>
+                <td>Rex Raposo</td>
+                <td>M</td>
+                <td>10</td>
+                <td>Perseguidor de Motoboys</td>
+            </tr>
+            <tr>
+                <td>Marlon Malandro</td>
+                <td>M</td>
+                <td>7</td>
+                <td>Mordedor de Canelas</td>
+            </tr>
+            <tr>
+                <td>Princesa Perdida</td>
+                <td>F</td>
+                <td>5</td>
+                <td>Caçadora de Sapos</td>
+            </tr>
+            <tr>
+                <td>Sol Solitária</td>
+                <td>F</td>
+                <td>2</td>
+                <td>Em busca do primeiro emprego</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
