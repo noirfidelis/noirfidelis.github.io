@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="html.ico.ico" type="image/x-icon">
+    <title>Tabelas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../portfolio/index.html" target="_self" class="logo">noir fidelis</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="../../portfolio/index.html" target="_self">Home</a></li>
+                <li><a href="../../portfolio/exercicios-resolucao.html" target="_self" rel="prev">Exercícios</a></li>
+                <li><a href="../../portfolio/desafios-resolucao.html" target="_self" rel="prev">Desafios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="artigo">
+            <ol type="1" id="bloco">
+                <li>O que é "td" em uma tabela?</li>
+                <ol type="a">
+                    <li>table data &#10004;</li>
+                    <li>tadle date</li>
+                    <li>table datte</li>
+                    <li>date table</li>
+                </ol>
+                <li>Qual propriedade usar para eliminar os espaços formados por padrão em uma tabela?</li>
+                <ol type="a">
+                    <li>border-collapse: auto;</li>
+                    <li>border-colapse: collapse; &#10004;</li>
+                    <li>collappse-border: colapse;</li>
+                    <li>border: collapse;</li>
+                </ol>
+                <li>Qual a hierarquia básica de uma tabela em HTML5?</li>
+                <ol type="a">
+                    <li><pre>
+                        <code>
+&lt;table&gt; 
+ &lt;br&gt;
+  &lt;td&gt;A1&lt;/td&gt;
+  &lt;td&gt;B1&lt;/td&gt;
+  &lt;td&gt;C1&lt;/td&gt;
+ &lt;/br&gt;
+ &lt;br&gt;
+  &lt;td&gt;A2&lt;/td&gt;
+  &lt;td&gt;B2&lt;/td&gt;
+  &lt;td&gt;C2&lt;/td&gt;
+ &lt;/br&gt;
+ &lt;br&gt;
+  &lt;td&gt;A3&lt;/td&gt;
+  &lt;td&gt;B3&lt;/td&gt;
+  &lt;td&gt;C3&lt;/td&gt;
+ &lt;/br&gt;
+&lt;/table&gt;          </code>
+                    </pre></li>
+                    <li><pre>
+                        <code> 
+ &lt;br&gt;
+  &lt;td&gt;A1&lt;/td&gt;
+  &lt;td&gt;B1&lt;/td&gt;
+  &lt;td&gt;C1&lt;/td&gt;
+ &lt;/br&gt;
+ &lt;br&gt;
+  &lt;td&gt;A2&lt;/td&gt;
+  &lt;td&gt;B2&lt;/td&gt;
+  &lt;td&gt;C2&lt;/td&gt;
+ &lt;/br&gt;
+ &lt;br&gt;
+  &lt;td&gt;A3&lt;/td&gt;
+  &lt;td&gt;B3&lt;/td&gt;
+  &lt;td&gt;C3&lt;/td&gt;
+ &lt;/br&gt;            </code>
+                    </pre></li>
+                    <li><pre>
+                        <code>
+&lt;table&gt; 
+ &lt;tr&gt;
+  &lt;td&gt;A1&lt;/td&gt;
+  &lt;td&gt;B1&lt;/td&gt;
+  &lt;td&gt;C1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;A2&lt;/td&gt;
+  &lt;td&gt;B2&lt;/td&gt;
+  &lt;td&gt;C2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;A3&lt;/td&gt;
+  &lt;td&gt;B3&lt;/td&gt;
+  &lt;td&gt;C3&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;  &#10004;</code>
+                    </pre></li>
+                    <li><pre>
+                        <code>
+ &lt;tr&gt;
+  &lt;td&gt;A1&lt;/td&gt;
+  &lt;td&gt;B1&lt;/td&gt;
+  &lt;td&gt;C1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;A2&lt;/td&gt;
+  &lt;td&gt;B2&lt;/td&gt;
+  &lt;td&gt;C2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td&gt;A3&lt;/td&gt;
+  &lt;td&gt;B3&lt;/td&gt;
+  &lt;td&gt;C3&lt;/td&gt;
+ &lt;/tr&gt;             </code>
+                    </pre></li>
+                </ol>
+                <li>Como alinhar conteudos dentro do "td" verticalmente?</li>
+                <ol type="a">
+                    <li>text-align</li>
+                    <li>vetical-align &#10004;</li>
+                    <li>align-vertical</li>
+                    <li>align-content</li>
+                </ol>
+                <li>Quais propriedades utilizamos ao alinhar conteudos verticalmente?</li>
+                <ol type="a">
+                    <li>center, left, right  e end </li>
+                    <li>bottom, center e top</li>
+                    <li>bottom, middle e top &#10004;</li>
+                    <li>top, middle e center</li>
+                </ol>
+                <li>Qual pseudo classe utilizamos para obter o "efeito zebrado"?</li>
+                <ol type="a">
+                    <li>:nth-child(n) &#10004;</li>
+                    <li>:thn-child(n)</li>
+                    <li>nth:child(n)</li>
+                    <li>child-nth(n)</li>
+                </ol>
+                <li>Devido a grandes quantidades de dados em uma tabela, para não nos perdermos, podemos fixar o título usando:</li>
+                <ol type="a">
+                    <li><pre>
+                        <code>
+table {
+    position: absolute;
+}
+thead > tr > th {
+    position: sticky;
+}                       </code>
+                    </pre></li>
+                    <li><pre>
+                        <code>
+thead > tr > th {
+    position: sticky;
+}                       </code>
+                    </pre></li>
+                    <li><pre>
+                        <code>
+table {
+    position: relative;
+}
+thead > tr > th {
+    position: fixed;
+}                       </code>
+                    </pre></li>
+                    <li><pre>
+                        <code>
+table {
+    position: relative;
+}
+thead > tr > th {
+    position: sticky;
+}  &#10004;             </code>
+                    </pre></li>
+                </ol>
+                <li>Podemos mesclar colunas e linhas em uma tabela. Para isso, utilizamos, respectivamente:</li>
+                <ol type="a">
+                    <li>col / row</li>
+                    <li>rowspan / colspan</li>
+                    <li>colspan / rowspan &#10004;</li>
+                    <li>rowspan / col</li>
+                </ol>
+                <li>Para colocar títulos em uma tabela, usamos a propriedade:</li>
+                <ol type="a">
+                    <li>&lt;caption&gt; &#10004;</li>
+                    <li>&lt;title&gt;</li>
+                    <li>&lt;capture&gt;</li>
+                    <li>&lt;h1&gt;</li>
+                </ol>
+                <li>Sempre que colocarmos "th" em nossa tabela, o <abbr title="World Wide Web Consortium">W3C</abbr> recomenda que utilizemos scopos para dar semântica ao nosso código HTML. Agora, quando queremos abranger mais de uma "linha" ou "coluna" em nossa tabela, usamos, respectivamente, os parâmetros:</li>
+                <ol type="a">
+                    <li>colgroup / rowgroup</li>
+                    <li>row / col</li>
+                    <li>colgroup / row</li>
+                    <li>rowgroup / colgroup &#10004;</li>
+                </ol>
+            </ol>
+                <aside class="extra">
+                <i>"Quando o mundo estiver unido na busca do conhecimento, e não mais lutando por dinheiro e poder, então nossa sociedade poderá enfim evoluir a um novo nível"
+                    <p style="font-size: 1rem; text-align: center;">obs: criei esse exercício já que o senhor guanabara não postou os pdfs.</p>
+                </i>
+                </aside>
+        </article>
+    </main>
+    <script src="mobile-navbar.js"></script>
+    <footer>
+        <p>&copy; 2023 Created by <a href="https://github.com/noirfidelis" target="_blank">noirfidelis</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVídeo</a></p>
+    </footer>
+</body>
+</html>

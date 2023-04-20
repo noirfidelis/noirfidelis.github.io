@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-elements
+        > = children
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none; /* tira o sublinhado dos links */
+            font-weight: bold; /* deixa em negrito */
+        }
+
+        a:visited{
+            color: darkred; /* se for visitado, a cor ficará vermelho escuro*/
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline; /* quando passar o mouse em cima, irá aparecer o sublinhado */
+        }
+
+        a:active {
+            color: yellow; /* a cor ficará amarela quando clicar no link */
+        }
+
+        .especial {
+            background-color: lightcoral;
+        }
+        .especial::before {
+            content: '→ ';
+        }
+        .especial::after {
+            content: ' ←';/* pseudo classes tem apenas dois pontos (:), pseudo elementos, tem 4 (::) */
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/noirfidelis" target="_blank">Meu GitHub</a></li>
+        <li><a href="https://www.duolingo.com/profile/LuanFidelis7" target="_blank" class="especial">Meu Duolingo</a></li>
+        <li><a href="https://www.linkedin.com/in/luan-fidelis-a1375013b/" target="_blank">Meu LinkedIn</a></li>
+    </ul>
+</body>
+</html>

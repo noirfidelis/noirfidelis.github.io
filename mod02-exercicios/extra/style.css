@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+div {
+    height: 50px;
+    background-color: #CCC;
+    border: 1px solid #222;
+    padding: 10px;
+    
+}
+
+.relative {
+    background-color: #321;
+    position: relative;
+    color: white;
+}
+
+.relative-alterada {
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    height: 25px;
+    width: 70px;
+    background-color: #914;
+    position: absolute;
+    color: white;
+    top: 20px;
+    right: 20px;
+}
+
+html {
+    padding-bottom: 1000px;
+}
+
+.fixed {
+    height: 50px;
+    width: 50px;
+    background-color: #528;
+    position: fixed;
+    color: white;
+    top: 10px;
+    left: 100px;
+}
+
+.sticky {
+    height: 50px;
+    width: 100px;
+    top: 10px;
+    background-color: #881;
+    position: sticky;
+}
