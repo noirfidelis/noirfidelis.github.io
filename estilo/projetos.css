@@ -130,7 +130,7 @@ nav {
 }
                 /*  CONTEÚDO    */
 .container {
-    height: 92vh;
+    height: 100%;
     width: 100%;
     background-color: var(--fundo-main);
     display: flex;
@@ -154,7 +154,26 @@ nav {
     align-items: center;
     justify-content: center;
     background-color: var(--white);
-    background-image: url(imagens/exercicios.jpg);
+    background-image: url(imagens/exercicios.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card1 {
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 100%;
+    margin: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    background-image: url(imagens/teste-seus-conhecimentos.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -173,7 +192,7 @@ nav {
     align-items: center;
     justify-content: center;
     background-color: var(--white);
-    background-image: url(imagens/desafios.jpg);
+    background-image: url(imagens/desafios.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -188,6 +207,7 @@ nav {
     width: 12.5rem;
     border-radius: 100%;
     margin: 1rem 0 0 0;
+    margin-bottom: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,6 +306,23 @@ nav {
     color: black;
 }
 
+.card1:hover {
+    filter: unset;
+}
+
+.card1:hover > .card-wrapper::before {
+    height: 12.5rem;
+    width: 12.5rem;
+    opacity: 1;
+}
+
+.card1:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 0.875rem;
+    color: black;
+}
+
 .card2:hover {
     filter: unset;
 }
@@ -337,7 +374,7 @@ nav {
 
             /*  FOOTER   */
 footer {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 1.875rem;
     bottom: 0;
