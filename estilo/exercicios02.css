@@ -132,14 +132,6 @@ nav {
 
             /*  CONTEUDO */
 
-.container h1 {
-    font-size: 1.875rem;
-    text-align: center;
-    color: var(--white);
-    padding-bottom: 0.625rem; 
-}
-
-                /*  CARDS    */
 .card-container {
     display: flex;
     flex-direction: column; 
@@ -148,35 +140,20 @@ nav {
     margin: auto;
     border-radius: 0.625rem;
     padding: 1.875rem;
+    text-align: justify;
     margin-top: 1.25rem;
+    text-indent: 0.313rem;
     box-shadow: 5px 5px 15px #00000080;
     background-color: var(--fundo-nav);
- 
 }
 
-.card-text {
-    letter-spacing: 0.063rem;
-    color: var(--white)
-}
-
-.card-content {
-    padding: 1.875rem;
-    text-align: justify;
-    text-indent: 0.313rem;
-
-}
-
-.container img {
-    height: 5.625rem;
-}
-
-.card-text a {
-    text-decoration: none;
+.container h1 {
+    font-size: 1.875rem;
+    text-align: center;
     color: var(--white);
 }
 
-
-.card-text p {
+.imagem p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,8 +162,25 @@ nav {
     padding: 1.25rem;
 }
 
-.card-text:hover a {
-    text-decoration: underline;
+.card-content {
+    padding: 1.875rem;
+    text-align: justify;
+}
+
+.card-content a {
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: 0.3s;    
+    color: var(--white);             
+}
+
+.card-content a:hover {
+    color: var(--fundo-letra);
+    transition: 0.5s ease-in-out;
+}
+
+.container img {
+    height: 5.625rem;
 }
 
            /*  FOOTER   */
